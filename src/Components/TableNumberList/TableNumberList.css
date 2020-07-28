@@ -1,0 +1,32 @@
+.TableNumberList {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.TableNumberList li {
+    display: inline-block;
+    
+    border: 1px solid silver;
+    padding: 10px;
+    width: 28px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+
+    transition: all 0.4s ease;
+}
+
+
+.TableNumberList li:hover {
+    cursor: pointer;
+    background-color: silver;
+}
+
+
+
+#activeNumberList {
+    background-color: steelblue;
+    border-color: steelblue;
+    color: white;
+}

@@ -1,0 +1,124 @@
+.TableAddElement {
+    display: inline-block;
+}
+
+.TableAddElement input:first-child {
+    font-size: 18px;
+    border: 1px solid silver;
+    padding: 10px 20px;
+    border-radius: 3px;
+    outline: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+
+    transition: all 0.4s ease;
+}
+
+.TableAddElement input:first-child:hover {
+    cursor: pointer;
+    background-color: steelblue;
+    border-color: steelblue;
+    color: white;
+}
+
+
+.TableAddElementForm {
+    display: none;
+    
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 20px 0px;
+}
+
+.TableAddElementForm div {
+    display: inline-block;
+}
+
+.TableAddElementForm p {
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.TableAddElementForm input {
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px 5px;
+    width: 120px;
+    outline: none;
+}
+
+
+
+.TableAddElementForm div:nth-child(1) input {
+    width: 50px;
+}
+
+.TableAddElementForm div:nth-child(4) input, .TableAddElementForm div:nth-child(5) input {
+    width: 177px;
+}
+
+.TableAddElementForm div:nth-child(6) {
+    margin-top: 20px;
+}
+
+.TableAddElementForm div:nth-child(6) textarea {
+    width: 600px;
+    height: 90px;
+    resize: none;
+    margin: 5px 5px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.TableAddElementForm div:nth-child(7) {
+    margin: 0px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.TableAddElementForm div:nth-child(7) input {
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(220, 220, 220);
+    color: silver;
+    width: 150px;
+}
+
+.TableAddElementForm div:nth-child(7) input:hover {
+    cursor: default;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(220, 220, 220);
+    color: silver;
+}
+
+
+
+.TableAddElementForm div:last-child p {
+    margin-top: 20px;
+}
+
+
+
+.TableAddFormShow {
+    display: block;
+}
+
+
+
+#addActive {
+    background-color: #fff;
+    border-color: silver;
+    color: black;
+
+    transition: all 0.4s ease;
+}
+
+#addActive:hover {
+    background-color: steelblue;
+    border-color: silver;
+    color: white;
+    cursor: pointer;
+    border-color: steelblue;
+}

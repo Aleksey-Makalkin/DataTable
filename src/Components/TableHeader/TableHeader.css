@@ -1,0 +1,35 @@
+.TableHeader * {
+    display: inline-block;
+    padding: 30px 20px;
+    border: 1px solid silver;
+    border-right: none;
+    margin-bottom: -1px;
+    font-size: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.TableHeader *:hover {
+    cursor: pointer;
+}
+
+
+.TableHeader div:nth-child(1) {
+    width: 40px;
+}
+
+.TableHeader div:nth-child(2) {
+    width: 120px;
+}
+
+.TableHeader div:nth-child(3) {
+    width: 120px;
+}
+
+.TableHeader div:nth-child(4) {
+    width: 220px;
+}
+
+.TableHeader div:nth-child(5) {
+    width: 150px;
+    border-right: 1px solid silver;
+}

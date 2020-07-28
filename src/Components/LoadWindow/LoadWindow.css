@@ -1,0 +1,32 @@
+.LoadWindow {
+    margin: auto;
+    margin-top: 200px;
+
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+
+    background-image: url('../../Media/Image/iconfinder_spinner_126578.png');
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    animation-name: loadRotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loadRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
